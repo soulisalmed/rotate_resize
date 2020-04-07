@@ -44,9 +44,10 @@ def export_to_portrait(name):
         doc_p[p_num].showPDFpage(rect,doc_l,p_num,keep_proportion=True)
     #at the end of the loop we save the new document
     doc_p.save(f"Rotated-{name}")
-    
+
+
 #create a list of the arguments provided in the command line
-list_inputs=sys.argv
+list_inputs=sys.argv[1:]
 
 #iterate the function on all the pdf (only)
 for file in list_inputs:
