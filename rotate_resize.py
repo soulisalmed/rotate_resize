@@ -3,7 +3,7 @@ import sys
 
 """
 install the pymupdf module:
-$ pip install pymupdf
+$ pip3 install pymupdf
 then
 ./rotate_resize.py *.pdf
 or
